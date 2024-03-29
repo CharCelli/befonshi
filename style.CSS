@@ -1,0 +1,320 @@
+* {
+  padding: 0;
+  overflow-x: hidden; 
+}
+
+/* Navbar */
+
+.navbar-collapse {
+  display: flex;
+  white-space: nowrap;
+}
+
+.nav-link,
+.nav-item {
+  font-family: "Ruluko", sans-serif;  
+  font-size: 1.2rem;   
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 0.5%;
+}
+
+
+.navbar-brand {
+  border-radius: 20%;
+  margin-top: 1%;
+}
+
+/* Body */
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  margin-top: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.banner1 {
+  max-width: 100%;
+  height: auto;
+}
+
+.featured {
+  font-family: "Ruluko", sans-serif;
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+.box {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.figure-img {
+  width: 15rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.figure-img:hover {
+  opacity: 50%;
+}
+
+h1 {
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+  font-size: 2rem;
+  background-color: orange;
+  padding-left: 60%;
+  max-width: 100%;
+  height: auto;
+}
+
+.figure-caption {
+  background-color: rgba(255, 187, 0, 0.773);
+  font-family: 'Ruluko', Courier, monospace;
+  color: white;
+  font-size: 1.2rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.section2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+  text-align: center;
+}
+
+
+.card-title {
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+  font-size: 2rem;
+  background-color: rgba(255, 187, 0, 0.674);
+  margin-bottom: 0.8%; 
+  max-width: 100%;
+  height: auto;
+}
+
+.rainbow {
+  transform: rotate(-10deg);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  position: absolute;
+  margin-left: -5%;
+  max-width: 100%;
+  height: auto;
+}
+
+.star {
+  position: absolute;
+  margin-left: 10%;
+  max-width: 100%;
+  height: auto;
+}
+
+.star1 {
+  position: absolute;
+  margin-top: 30%;
+  margin-left: -40%;
+  max-width: 100%;
+  height: auto;
+}
+
+.rainbow:hover {
+  transform: translateY(-20px);
+
+}
+
+.card-text {
+  font-family: 'Ruluko', sans-serif;
+  font-size: 1.3rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.button-whatsapp {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.2rem;
+  min-width: auto;
+  background-color: #4CAF50; 
+  color: white; 
+  text-decoration: none;
+  padding: 10px 20px;
+  text-align: center; 
+  display: inline-block; 
+  margin: 4px 2px; 
+  cursor: pointer; 
+  border-radius: 8px; 
+  border: none;
+  transition: transform 0.3s ease;
+  max-width: 100%;
+  height: auto;
+}
+
+.button-whatsapp:active {
+  background-color: orange;
+}
+
+.section3 {
+  margin-top: 5%;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+/* footer */
+.footer-container {
+  display: flex;
+  padding: 5% 0% 5% 0%;
+  justify-content: space-between;
+}
+
+.colum {
+  flex: 1;
+  margin: 0 90px;
+}
+
+.logo {
+  border-radius: 10%;
+  max-width: 100%;
+  height: auto;
+}
+
+.email {
+  font-family: "DynaPuff", system-ui;
+  color: rgba(255, 166, 0, 0.781);
+  font-size: 1.2rem;
+}
+
+.befonshi {
+  font-family: "DynaPuff", system-ui;
+  font-size: 3.5rem;
+  color: orange;
+  margin-top: -4%;
+}
+
+.offers {
+  font-family: "DynaPuff", system-ui;
+  font-size: 1.2rem;
+  text-align: justify;
+  color: orange;
+  padding: 2%;
+}
+
+.title-email {
+  font-family: 'Ruluko', sans-serif;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 166, 0, 0.502); 
+  font-style: italic; 
+  font-size: 14px;
+  margin-bottom: 5%;
+  font-family: 'Ruluko', sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  padding: 1px;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+  max-width: 100%;
+  height: auto;
+}
+
+.iconos-redes-sociales i {
+  color: black;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+  max-width: 100%;
+  height: auto;
+}
+
+.iconos-redes-sociales a:hover {
+  border: 2px solid rgb(13, 110, 253);
+  border-radius: 50%;
+}
+
+.iconos-redes-sociales a:hover i {
+  color: black;
+}
+
+.autor {
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive */
+  
+@media screen and (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-collapse {
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .title-featured {
+    flex-direction: column;
+    text-align: left;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .rainbow {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section2 {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .star {
+    margin-top: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+ 
+
+

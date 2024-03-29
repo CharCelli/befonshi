@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    overflow-x: hidden; 
+  }
+
+  /* Navbar */
+
+  .navbar-collapse {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    margin-bottom: 0%;
+  }
+  
+  .nav-link,
+  .nav-item {
+    font-family: "Ruluko", sans-serif;  
+    font-size: 1.2rem;   
+    text-decoration: none;
+    color: black;
+    padding: 0.5%;
+    display: inline-block;
+  }
+  
+  
+  .navbar-brand {
+    border-radius: 20%;
+    margin-top: 1%;
+  }
+
+/* Body */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container-body {
+  margin-top: 0%;
+}
+
+  
+/* footer */
+
+.footer-container {
+    display: flex;
+    padding: 5% 0% 5% 0%;
+    justify-content: space-between;
+  }
+  
+  .colum {
+    flex: 1;
+    margin: 0 90px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .logo {
+    border-radius: 10%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .button-whatsapp {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.2rem;
+    min-width: auto;
+    background-color: #4CAF50; 
+    color: white; 
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center; 
+    display: inline-block; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 8px; 
+    border: none;
+    transition: transform 0.3s ease;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .email {
+    font-family: "DynaPuff", system-ui;
+    color: rgba(255, 166, 0, 0.781);
+    font-size: 1.2rem;
+  }
+  
+  .befonshi {
+    font-family: "DynaPuff", system-ui;
+    font-size: 3.5rem;
+    color: orange;
+    margin-top: -4%;
+  }
+  
+  .offers {
+    font-family: "DynaPuff", system-ui;
+    font-size: 1.2rem;
+    text-align: justify;
+    color: orange;
+    padding: 2%;
+  }
+  
+  .title-email {
+    font-family: 'Ruluko', sans-serif;
+  }
+  
+  .input {
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 166, 0, 0.502); 
+    font-style: italic; 
+    font-size: 14px;
+    margin-bottom: 5%;
+    font-family: 'Ruluko', sans-serif;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    padding: 1px;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .iconos-redes-sociales i {
+    color: black;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .iconos-redes-sociales a:hover {
+    border: 2px solid rgb(13, 110, 253);
+    border-radius: 50%;
+  }
+  
+  .iconos-redes-sociales a:hover i {
+    color: black;
+  }
+  
+  .autor {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Responsive */
+
+  @media screen and (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .navbar-collapse {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
