@@ -1,2 +1,2 @@
-# mi-primera.p-gina-est-tica
+# mi-primera.pagina-estatica
 Página estática para BeFonshi
